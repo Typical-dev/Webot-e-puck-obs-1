@@ -1,0 +1,62 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/balls/protos/FifaSoccerBall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/toys/protos/RubberDuck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/lego/protos/LegoWheel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/shapes/protos/TexturedBoxShape.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.19603412017576527 -0.23151070478824964 -0.9528763914041325 4.8301684992957306
+  position 0.6453894850657883 -1.7576087616493754 0.8817967364965063
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+  floorTileSize 3 3
+  wallThickness 0.05
+  wallHeight 0.05
+}
+TexturedBoxShape {
+  size 0.5 0.5 0.5
+}
+TexturedBoxShape {
+  size 0.5 0.5 0.5
+}
+FifaSoccerBall {
+  translation -1.6358988287854175 -1.1349604934980608 0.11182507199999998
+  rotation -0.16203690032845514 0.7302387760711019 0.6636982543702565 -2.7675524922140142
+}
+LegoWheel {
+  translation -0.40835526622233753 1.106296017496087 0.0219788104
+  rotation -0.6431645421059746 0.32860538206272893 0.6916342058176563 2.462335561583573
+}
+TexturedBoxShape {
+  size 0.5 0.5 0.5
+}
+RubberDuck {
+  translation 0.1282475714822763 -0.8397053421935975 0.03743388859255182
+  rotation -0.022980809526175244 0.7779598147309339 0.6278936287758717 -3.1041640943804922
+}
+E-puck {
+  hidden position_0_0 84.98622184864502
+  hidden position_0_1 93.18626975484932
+  hidden linearVelocity_0 -0.05414297023406813 0.014596686712187341 1.3344611685410789e-08
+  hidden angularVelocity_0 -0.0012505759265197698 -0.004592789960337634 0.08846312297062009
+  hidden rotation_1 0 -0.9999999999999999 0 2.9783724518691947
+  hidden linearVelocity_1 -0.05194461272956845 0.01400454747032859 -1.1224031348788e-08
+  hidden angularVelocity_1 -0.6973532877498282 -2.5866970714822672 0.09019684350455348
+  hidden rotation_2 0 1 0 5.221675454335109
+  hidden linearVelocity_2 -0.05638737089063402 0.015202381896526356 9.886735474754748e-09
+  hidden angularVelocity_2 -0.7629625720900604 -2.8296716328544638 0.09046662348517343
+  translation 0.1870344270601612 1.2068707801554703 -6.431160856760695e-05
+  rotation 0.0004095280420708701 3.452273913968971e-06 0.9999999161374288 2.879859028264744
+}
